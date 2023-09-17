@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+     /* background-color: black; 
+     color: blanchedalmond; */
+
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    border-bottom: 4px solid rgb(228, 219, 219);
+    align-items: center;
+    height: 70px;
+    width: auto;
+    position: relative;
+    align-items: center;
+}
+/*  */
+.avcon{
+   align-items: center;
+    display: flex;
+    
+}
+
+.menu{
+    margin: 0 4px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.image{
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+.image span{
+    font-size: 26px;
+    padding: 0 6px;
+}
+.search {
+    display: flex;
+    position: relative;
+     align-items: center;
+    background-color: rgb(170, 168, 165);
+    border-radius: 9px;
+   float: left;
+   
+
+}
+.search .material-symbols-outlined{
+    margin: 4px;
+    padding: 8px;
+    cursor: pointer;
+    color: black;
+    background-color: rgb(170, 168, 165);
+}
+   
+.search input{
+    height: 55px;
+    width: 50vw;
+    text-decoration: none;
+  border: none;
+  background-color: rgb(170, 168, 165);
+ border-radius: 9px;
+ font-size: 24px;
+ color: bisque;
+ outline: none;
+ 
+}
+
+.icons{
+  justify-content: space-between;
+  padding-left:35px;
+    
+}
+
+.icons .material-symbols-outlined{
+   padding: 0 14px;
+   cursor: pointer;
+}
+
+.profile{
+    padding: 0 24px;
+    cursor: pointer;
+}
+.profile  .material-symbols-outlined{
+    padding: 0 15px;
+    cursor: pointer;
+}
+
+.side-nav-bar{
+    display: block;
+    height: 16vh;
+    width: 16vw;
+}
+
+.side-nav-bar .nav-bar{
+    position: 64px 1074px;
+    margin-top: 14px;
+    overflow: hidden;
+    padding: 20px;
+    border-right: 2px  wheat;
+}
+.side-nav-bar .nav-bar .lightbul{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 9px;
+ }
+.side-nav-bar .nav-bar .lightbul:hover{
+    cursor: pointer;
+    background-color: aqua;
+ }
+.side-nav-bar .nav-bar .lightbul span{
+    margin: -10px 10px;
+   position: relative;
+   padding-top: -10px;
+   font-size: 600;
+
+ }
+ .side-nav-bar .nav-bar .notification{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 9px;
+ }
+ .side-nav-bar .nav-bar .notification:hover{
+    cursor: pointer;
+    background-color: aqua;
+ }
+ .side-nav-bar .nav-bar .notification span{
+    margin: -10px 10px;
+    position: relative;
+    padding-top: -10px;
+    font-size: 600;
+ }
+
+ .side-nav-bar .nav-bar .edit{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 9px;
+ }
+ .side-nav-bar .nav-bar .edit:hover{
+    cursor: pointer;
+    background-color: aqua;
+ }
+ .side-nav-bar .nav-bar .edit span{
+    margin: -10px 10px;
+    position: relative;
+    padding-top: -10px;
+    font-size: 600;
+ }
+ .side-nav-bar .nav-bar .achive{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 9px;
+ }
+ .side-nav-bar .nav-bar .achive:hover{
+    cursor: pointer;
+    background-color: aqua;
+ }
+ .side-nav-bar .nav-bar .achive span{
+    margin: -10px 10px;
+    position: relative;
+    padding-top: -10px;
+    font-size: 600;
+ }
+ .side-nav-bar .nav-bar .delete{
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 9px;
+ }
+ .side-nav-bar .nav-bar .delete:hover{
+    cursor: pointer;
+    background-color: aqua;
+ }
+ .side-nav-bar .nav-bar .delete span{
+    margin: -10px 10px;
+    position: relative;
+    font-size: 600;
+ }
+
+
+ .search-bar{
+      
+     /* text-align: center;  */
+     border-radius: 9px;
+     float: left;
+     margin-left: 30vw;
+     margin-top: -75px;
+    height: 60px;
+    width: 49vw;
+    border: none; 
+    background-color: azure;
+    opacity: -15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+ }
+ .search-bar:hover{
+    background-color: azure;
+ }
+
+.search-input{
+   height: 49px;
+   width: 35vw; 
+   border: none; 
+   background-color: azure;
+   border-radius: 4px 0 0 4px;
+   outline: none;
+   
+    /* position: relative;
+   
+    text-decoration: none;
+   
+  border-radius: 9px; 
+ font-size: 24px; */
+ } 
+ .search-bar .material-symbols-outlined {
+   padding: 4px;
+   margin: 9px;
+   
+ }
+ .search-bar .material-symbols-outlined:hover {
+    cursor: text;
+    cursor: pointer;
+ }
